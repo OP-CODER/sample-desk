@@ -12,4 +12,4 @@ EXPOSE 8000
 # Examples:
 # For Flask: CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
 # For FastAPI/Uvicorn: CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-CMD ["python", "app.py"]  # Replace 'app.py' with your application entrypoint
+CMD python app.py  # Replace 'app.py' with your application entrypoint
